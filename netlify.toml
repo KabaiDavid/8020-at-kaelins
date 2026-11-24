@@ -1,0 +1,13 @@
+# Optional: deploy as-is to Netlify (no build step)
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/assets/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

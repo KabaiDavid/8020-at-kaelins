@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://8020atkaelins.com/sitemap.xml
