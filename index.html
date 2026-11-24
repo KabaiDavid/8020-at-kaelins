@@ -14,7 +14,7 @@
 <meta property="og:title" content="80/20 at Kaelin's — Birthplace of the Cheeseburger">
 <meta property="og:description" content="A Louisville original since 1934, reimagined. Burgers, fried chicken, craft cocktails, a malt shoppe and a wraparound patio on Newburg Road.">
 <meta property="og:url" content="https://8020atkaelins.com/">
-<meta property="og:image" content="https://8020atkaelins.com/assets/img/og-image.jpg">
+<meta property="og:image" content="https://8020atkaelins.com/img/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="The 80/20 at Kaelin's building on Newburg Road with its vintage “Kaelin's Restaurant — Cheeseburgers” sign">
@@ -22,14 +22,14 @@
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" href="/assets/img/favicon-48.png">
-<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/img/favicon-48.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 
-<link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" as="image" type="image/avif" imagesrcset="/assets/img/exterior-800.avif 800w, /assets/img/exterior-1280.avif 1280w, /assets/img/exterior-1920.avif 1920w, /assets/img/exterior-2560.avif 2560w" imagesizes="100vw" fetchpriority="high">
-<link rel="stylesheet" href="/assets/css/main.css?v=1">
+<link rel="preload" href="/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/avif" imagesrcset="/img/exterior-800.avif 800w, /img/exterior-1280.avif 1280w, /img/exterior-1920.avif 1920w, /img/exterior-2560.avif 2560w" imagesizes="100vw" fetchpriority="high">
+<link rel="stylesheet" href="/src/styles/main.css">
 <script>document.documentElement.className+=" js"</script>
 
 <script type="application/ld+json">
@@ -40,8 +40,8 @@
   "name": "80/20 at Kaelin's",
   "slogan": "Birthplace of the Cheeseburger",
   "url": "https://8020atkaelins.com/",
-  "image": "https://8020atkaelins.com/assets/img/og-image.jpg",
-  "logo": "https://8020atkaelins.com/assets/img/icon-512.png",
+  "image": "https://8020atkaelins.com/img/og-image.jpg",
+  "logo": "https://8020atkaelins.com/img/icon-512.png",
   "telephone": "+1-502-200-8020",
   "email": "info@8020atkaelins.com",
   "address": {
@@ -69,8 +69,8 @@
 <header class="hdr" data-hdr>
   <div class="hdr__in">
     <a class="hdr__brand" href="#top" aria-label="80/20 at Kaelin's — back to top">
-      <img src="/assets/img/logo-cream-sm.webp" width="180" height="158" alt="" class="hdr__logo hdr__logo--cream">
-      <img src="/assets/img/logo-oxblood-sm.webp" width="180" height="158" alt="" class="hdr__logo hdr__logo--ink">
+      <img src="/img/logo-cream-sm.webp" width="180" height="158" alt="" class="hdr__logo hdr__logo--cream">
+      <img src="/img/logo-oxblood-sm.webp" width="180" height="158" alt="" class="hdr__logo hdr__logo--ink">
       <span class="hdr__word">80/20 <i>at</i> Kaelin's</span>
     </a>
     <nav class="hdr__nav" aria-label="Primary">
@@ -111,14 +111,14 @@
 <!-- ============ HERO ============ -->
 <section class="hero" id="top" aria-labelledby="hero-title">
   <div class="hero__media" aria-hidden="true">
-    <picture><source type="image/avif" srcset="/assets/img/exterior-800.avif 800w, /assets/img/exterior-1280.avif 1280w, /assets/img/exterior-1920.avif 1920w, /assets/img/exterior-2560.avif 2560w" sizes="100vw"><source type="image/webp" srcset="/assets/img/exterior-800.webp 800w, /assets/img/exterior-1280.webp 1280w, /assets/img/exterior-1920.webp 1920w, /assets/img/exterior-2560.webp 2560w" sizes="100vw"><img class="hero__img" src="/assets/img/exterior-1280.jpg" width="1280" height="723" alt="" loading="eager" decoding="async" fetchpriority="high"></picture>
+    <picture><source type="image/avif" srcset="/img/exterior-800.avif 800w, /img/exterior-1280.avif 1280w, /img/exterior-1920.avif 1920w, /img/exterior-2560.avif 2560w" sizes="100vw"><source type="image/webp" srcset="/img/exterior-800.webp 800w, /img/exterior-1280.webp 1280w, /img/exterior-1920.webp 1920w, /img/exterior-2560.webp 2560w" sizes="100vw"><img class="hero__img" src="/img/exterior-1280.jpg" width="1280" height="723" alt="" loading="eager" decoding="async" fetchpriority="high"></picture>
     <!--
       HERO VIDEO SLOT — no authentic footage exists on the current site.
       When the restaurant supplies real footage (grill, cheese melting, the bar at night),
-      drop it in /assets/video/ and uncomment:
-      <video class="hero__video" autoplay muted loop playsinline preload="none" poster="/assets/img/exterior-1920.webp">
-        <source src="/assets/video/hero.webm" type="video/webm">
-        <source src="/assets/video/hero.mp4" type="video/mp4">
+      drop it in public/video/ and uncomment:
+      <video class="hero__video" autoplay muted loop playsinline preload="none" poster="/img/exterior-1920.webp">
+        <source src="/video/hero.webm" type="video/webm">
+        <source src="/video/hero.mp4" type="video/mp4">
       </video>
     -->
     <div class="hero__shade"></div>
@@ -161,10 +161,10 @@
 
     <figure class="story__photos" data-reveal>
       <div class="story__ph story__ph--a">
-        <picture><source type="image/avif" srcset="/assets/img/archive-family-600.avif 600w, /assets/img/archive-family-900.avif 900w, /assets/img/archive-family-1200.avif 1200w" sizes="(min-width: 960px) 34vw, 82vw"><source type="image/webp" srcset="/assets/img/archive-family-600.webp 600w, /assets/img/archive-family-900.webp 900w, /assets/img/archive-family-1200.webp 1200w" sizes="(min-width: 960px) 34vw, 82vw"><img src="/assets/img/archive-family-900.jpg" width="900" height="751" alt="Vintage photograph of three people standing outside the Kaelin's building beside its script sign" loading="lazy" decoding="async"></picture>
+        <picture><source type="image/avif" srcset="/img/archive-family-600.avif 600w, /img/archive-family-900.avif 900w, /img/archive-family-1200.avif 1200w" sizes="(min-width: 960px) 34vw, 82vw"><source type="image/webp" srcset="/img/archive-family-600.webp 600w, /img/archive-family-900.webp 900w, /img/archive-family-1200.webp 1200w" sizes="(min-width: 960px) 34vw, 82vw"><img src="/img/archive-family-900.jpg" width="900" height="751" alt="Vintage photograph of three people standing outside the Kaelin's building beside its script sign" loading="lazy" decoding="async"></picture>
       </div>
       <div class="story__ph story__ph--b">
-        <picture><source type="image/avif" srcset="/assets/img/archive-counter-600.avif 600w, /assets/img/archive-counter-900.avif 900w, /assets/img/archive-counter-1200.avif 1200w" sizes="(min-width: 960px) 22vw, 56vw"><source type="image/webp" srcset="/assets/img/archive-counter-600.webp 600w, /assets/img/archive-counter-900.webp 900w, /assets/img/archive-counter-1200.webp 1200w" sizes="(min-width: 960px) 22vw, 56vw"><img src="/assets/img/archive-counter-900.jpg" width="900" height="768" alt="Vintage photograph of the original Kaelin's counter, with staff behind the soda fountain" loading="lazy" decoding="async"></picture>
+        <picture><source type="image/avif" srcset="/img/archive-counter-600.avif 600w, /img/archive-counter-900.avif 900w, /img/archive-counter-1200.avif 1200w" sizes="(min-width: 960px) 22vw, 56vw"><source type="image/webp" srcset="/img/archive-counter-600.webp 600w, /img/archive-counter-900.webp 900w, /img/archive-counter-1200.webp 1200w" sizes="(min-width: 960px) 22vw, 56vw"><img src="/img/archive-counter-900.jpg" width="900" height="768" alt="Vintage photograph of the original Kaelin's counter, with staff behind the soda fountain" loading="lazy" decoding="async"></picture>
       </div>
       <figcaption><span class="label label--sm">Then.</span> From the Kaelin's archive.</figcaption>
     </figure>
@@ -235,16 +235,16 @@
     <div class="house__grid">
       <div class="house__stage" aria-hidden="true">
         <div class="house__frame">
-          <div class="house__slide is-on" data-slide="bar"><picture><source type="image/avif" srcset="/assets/img/bar-640.avif 640w, /assets/img/bar-960.avif 960w, /assets/img/bar-1320.avif 1320w" sizes="(min-width: 960px) 52vw, 1px"><source type="image/webp" srcset="/assets/img/bar-640.webp 640w, /assets/img/bar-960.webp 960w, /assets/img/bar-1320.webp 1320w" sizes="(min-width: 960px) 52vw, 1px"><img src="/assets/img/bar-960.jpg" width="960" height="679" alt="" loading="lazy" decoding="async"></picture></div>
-          <div class="house__slide" data-slide="patio"><picture><source type="image/avif" srcset="/assets/img/patio-640.avif 640w, /assets/img/patio-960.avif 960w, /assets/img/patio-1320.avif 1320w" sizes="(min-width: 960px) 52vw, 1px"><source type="image/webp" srcset="/assets/img/patio-640.webp 640w, /assets/img/patio-960.webp 960w, /assets/img/patio-1320.webp 1320w" sizes="(min-width: 960px) 52vw, 1px"><img src="/assets/img/patio-960.jpg" width="960" height="543" alt="" loading="lazy" decoding="async"></picture></div>
-          <div class="house__slide" data-slide="malt"><picture><source type="image/avif" srcset="/assets/img/malt-shoppe-640.avif 640w, /assets/img/malt-shoppe-960.avif 960w, /assets/img/malt-shoppe-1200.avif 1200w" sizes="(min-width: 960px) 52vw, 1px"><source type="image/webp" srcset="/assets/img/malt-shoppe-640.webp 640w, /assets/img/malt-shoppe-960.webp 960w, /assets/img/malt-shoppe-1200.webp 1200w" sizes="(min-width: 960px) 52vw, 1px"><img src="/assets/img/malt-shoppe-960.jpg" width="960" height="758" alt="" loading="lazy" decoding="async"></picture></div>
+          <div class="house__slide is-on" data-slide="bar"><picture><source type="image/avif" srcset="/img/bar-640.avif 640w, /img/bar-960.avif 960w, /img/bar-1320.avif 1320w" sizes="(min-width: 960px) 52vw, 1px"><source type="image/webp" srcset="/img/bar-640.webp 640w, /img/bar-960.webp 960w, /img/bar-1320.webp 1320w" sizes="(min-width: 960px) 52vw, 1px"><img src="/img/bar-960.jpg" width="960" height="679" alt="" loading="lazy" decoding="async"></picture></div>
+          <div class="house__slide" data-slide="patio"><picture><source type="image/avif" srcset="/img/patio-640.avif 640w, /img/patio-960.avif 960w, /img/patio-1320.avif 1320w" sizes="(min-width: 960px) 52vw, 1px"><source type="image/webp" srcset="/img/patio-640.webp 640w, /img/patio-960.webp 960w, /img/patio-1320.webp 1320w" sizes="(min-width: 960px) 52vw, 1px"><img src="/img/patio-960.jpg" width="960" height="543" alt="" loading="lazy" decoding="async"></picture></div>
+          <div class="house__slide" data-slide="malt"><picture><source type="image/avif" srcset="/img/malt-shoppe-640.avif 640w, /img/malt-shoppe-960.avif 960w, /img/malt-shoppe-1200.avif 1200w" sizes="(min-width: 960px) 52vw, 1px"><source type="image/webp" srcset="/img/malt-shoppe-640.webp 640w, /img/malt-shoppe-960.webp 960w, /img/malt-shoppe-1200.webp 1200w" sizes="(min-width: 960px) 52vw, 1px"><img src="/img/malt-shoppe-960.jpg" width="960" height="758" alt="" loading="lazy" decoding="async"></picture></div>
         </div>
         <ol class="house__dots"><li class="is-on" data-dot="bar"></li><li data-dot="patio"></li><li data-dot="malt"></li></ol>
       </div>
 
       <div class="house__rooms">
         <article class="room" data-room="bar" aria-labelledby="room-bar">
-          <div class="room__img"><picture><source type="image/avif" srcset="/assets/img/bar-640.avif 640w, /assets/img/bar-960.avif 960w, /assets/img/bar-1320.avif 1320w" sizes="(min-width: 960px) 1px, 92vw"><source type="image/webp" srcset="/assets/img/bar-640.webp 640w, /assets/img/bar-960.webp 960w, /assets/img/bar-1320.webp 1320w" sizes="(min-width: 960px) 1px, 92vw"><img class="Kaelin's bar interior with high-top tables, wood-clad bar and bottle shelving" src="/assets/img/bar-960.jpg" width="960" height="679" alt="" loading="lazy" decoding="async"></picture></div>
+          <div class="room__img"><picture><source type="image/avif" srcset="/img/bar-640.avif 640w, /img/bar-960.avif 960w, /img/bar-1320.avif 1320w" sizes="(min-width: 960px) 1px, 92vw"><source type="image/webp" srcset="/img/bar-640.webp 640w, /img/bar-960.webp 960w, /img/bar-1320.webp 1320w" sizes="(min-width: 960px) 1px, 92vw"><img class="Kaelin's bar interior with high-top tables, wood-clad bar and bottle shelving" src="/img/bar-960.jpg" width="960" height="679" alt="" loading="lazy" decoding="async"></picture></div>
           <p class="room__no">01</p>
           <h3 class="room__t" id="room-bar">The Bar</h3>
           <p class="room__sub">Craft cocktails &amp; local brews</p>
@@ -253,7 +253,7 @@
         </article>
 
         <article class="room" data-room="patio" aria-labelledby="room-patio">
-          <div class="room__img"><picture><source type="image/avif" srcset="/assets/img/patio-640.avif 640w, /assets/img/patio-960.avif 960w, /assets/img/patio-1320.avif 1320w" sizes="(min-width: 960px) 1px, 92vw"><source type="image/webp" srcset="/assets/img/patio-640.webp 640w, /assets/img/patio-960.webp 960w, /assets/img/patio-1320.webp 1320w" sizes="(min-width: 960px) 1px, 92vw"><img class="The brick patio at Kaelin's with red chairs and umbrellas beneath the vintage Kaelin's Restaurant sign" src="/assets/img/patio-960.jpg" width="960" height="543" alt="" loading="lazy" decoding="async"></picture></div>
+          <div class="room__img"><picture><source type="image/avif" srcset="/img/patio-640.avif 640w, /img/patio-960.avif 960w, /img/patio-1320.avif 1320w" sizes="(min-width: 960px) 1px, 92vw"><source type="image/webp" srcset="/img/patio-640.webp 640w, /img/patio-960.webp 960w, /img/patio-1320.webp 1320w" sizes="(min-width: 960px) 1px, 92vw"><img class="The brick patio at Kaelin's with red chairs and umbrellas beneath the vintage Kaelin's Restaurant sign" src="/img/patio-960.jpg" width="960" height="543" alt="" loading="lazy" decoding="async"></picture></div>
           <p class="room__no">02</p>
           <h3 class="room__t" id="room-patio">The Patio</h3>
           <p class="room__sub">Where the neighborhood comes together</p>
@@ -262,7 +262,7 @@
         </article>
 
         <article class="room" data-room="malt" aria-labelledby="room-malt">
-          <div class="room__img"><picture><source type="image/avif" srcset="/assets/img/malt-shoppe-640.avif 640w, /assets/img/malt-shoppe-960.avif 960w, /assets/img/malt-shoppe-1200.avif 1200w" sizes="(min-width: 960px) 1px, 92vw"><source type="image/webp" srcset="/assets/img/malt-shoppe-640.webp 640w, /assets/img/malt-shoppe-960.webp 960w, /assets/img/malt-shoppe-1200.webp 1200w" sizes="(min-width: 960px) 1px, 92vw"><img class="The Malt Shoppe with a black-and-white checkered floor, white bistro tables and a sunny counter" src="/assets/img/malt-shoppe-960.jpg" width="960" height="758" alt="" loading="lazy" decoding="async"></picture></div>
+          <div class="room__img"><picture><source type="image/avif" srcset="/img/malt-shoppe-640.avif 640w, /img/malt-shoppe-960.avif 960w, /img/malt-shoppe-1200.avif 1200w" sizes="(min-width: 960px) 1px, 92vw"><source type="image/webp" srcset="/img/malt-shoppe-640.webp 640w, /img/malt-shoppe-960.webp 960w, /img/malt-shoppe-1200.webp 1200w" sizes="(min-width: 960px) 1px, 92vw"><img class="The Malt Shoppe with a black-and-white checkered floor, white bistro tables and a sunny counter" src="/img/malt-shoppe-960.jpg" width="960" height="758" alt="" loading="lazy" decoding="async"></picture></div>
           <p class="room__no">03</p>
           <h3 class="room__t" id="room-malt">The Malt Shoppe</h3>
           <p class="room__sub">A sweet taste of nostalgia</p>
@@ -278,7 +278,7 @@
 <section class="events" id="events" aria-labelledby="events-title">
   <div class="wrap events__grid">
     <div class="events__media" data-reveal>
-      <picture><source type="image/avif" srcset="/assets/img/private-events-640.avif 640w, /assets/img/private-events-960.avif 960w, /assets/img/private-events-1320.avif 1320w" sizes="(min-width: 960px) 46vw, 92vw"><source type="image/webp" srcset="/assets/img/private-events-640.webp 640w, /assets/img/private-events-960.webp 960w, /assets/img/private-events-1320.webp 1320w" sizes="(min-width: 960px) 46vw, 92vw"><img class="The private dining room upstairs, with dark wood tables, string lights and tall windows" src="/assets/img/private-events-960.jpg" width="960" height="759" alt="" loading="lazy" decoding="async"></picture>
+      <picture><source type="image/avif" srcset="/img/private-events-640.avif 640w, /img/private-events-960.avif 960w, /img/private-events-1320.avif 1320w" sizes="(min-width: 960px) 46vw, 92vw"><source type="image/webp" srcset="/img/private-events-640.webp 640w, /img/private-events-960.webp 960w, /img/private-events-1320.webp 1320w" sizes="(min-width: 960px) 46vw, 92vw"><img class="The private dining room upstairs, with dark wood tables, string lights and tall windows" src="/img/private-events-960.jpg" width="960" height="759" alt="" loading="lazy" decoding="async"></picture>
       <div class="events__badge" aria-hidden="true"><b>30–70</b><span>guests</span></div>
     </div>
 
@@ -372,7 +372,7 @@
 <footer class="ftr">
   <div class="grain"></div>
   <div class="wrap ftr__in">
-    <img class="ftr__logo" src="/assets/img/logo-cream.webp" width="600" height="525" alt="80/20 at Kaelin's" loading="lazy" decoding="async">
+    <img class="ftr__logo" src="/img/logo-cream.webp" width="600" height="525" alt="80/20 at Kaelin's" loading="lazy" decoding="async">
     <p class="ftr__line">You're not simply visiting another restaurant.<br><em>You're part of a Louisville original.</em></p>
     <div class="ftr__cols">
       <nav aria-label="Footer">
@@ -400,6 +400,6 @@
   <a href="https://www.google.com/maps/dir/?api=1&amp;destination=80%2F20%20at%20Kaelin%27s%2C%201801%20Newburg%20Rd%2C%20Louisville%2C%20KY%2040205" target="_blank" rel="noopener">Directions</a>
 </nav>
 
-<script src="/assets/js/main.js?v=1" defer></script>
+<script type="module" src="/src/main.js"></script>
 </body>
 </html>
